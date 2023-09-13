@@ -17,8 +17,6 @@ mongoose.connect(process.env.MONGO_URI, {
 })
   .then(() => {
     console.log('Connexion à MongoDB réussie !');
-
-    // Placez ici le reste de votre code, par exemple, la définition de vos modèles Mongoose et la configuration des routes.
   })
   .catch((error) => {
     console.error('Connexion à MongoDB échouée !', error);
